@@ -61,8 +61,6 @@ END_JUCE_MODULE_DECLARATION
 #ifndef __STK_STKHEADER__
 #define __STK_STKHEADER__
 
-#include "../juce_core/juce_core.h"
-
 #if JUCE_LITTLE_ENDIAN && ! defined (__LITTLE_ENDIAN__)
  #define __LITTLE_ENDIAN__
 #endif
