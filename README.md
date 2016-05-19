@@ -11,6 +11,8 @@ Use it to quickly add effects and generators to a JUCE based audio project.
 
 ```git clone https://github.com/adamski/stk_wrapper.git```
 
+```cd stk_wrapper```
+
 ```git submodule init```
 
 ```git submodule update```
