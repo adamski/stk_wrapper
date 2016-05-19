@@ -1,10 +1,17 @@
-stk_module
+stk_wrapper
 ==========
 
 JUCE module wrapper for the STK library.
 
-This wrapper has all the real-time classes (audio-in, threading, sockets etc.) removed to reduce external dependancies and because JUCE provides all of this functionality.
+This wrapper simply wraps the whole STK library into a JUCE module, as a Git submodule.
 
-This module is designed as a quick way to add effects and generators to a JUCE based audio project. To use simply add the module to the JUCE modules folder, create a new project in the Introjucer and add the module. All the classes are in the stk namespace.
+Use it to quickly add effects and generators to a JUCE based audio project. 
 
-There are a few amendments to the STK codebase in order to remove some compiler warnings.
+###Installation
+
+```git clone git clone https://github.com/adamski/stk_wrapper.git```
+```git submodule init```
+```git submodule update```
+
+Then add the module folder to your project from Projucer. 
+
