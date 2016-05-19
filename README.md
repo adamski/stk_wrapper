@@ -9,7 +9,7 @@ Use it to quickly add effects and generators to a JUCE based audio project.
 
 ###Installation
 
-```git clone git clone https://github.com/adamski/stk_wrapper.git```
+```git clone https://github.com/adamski/stk_wrapper.git```
 
 ```git submodule init```
 
