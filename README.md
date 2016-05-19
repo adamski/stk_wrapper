@@ -15,5 +15,5 @@ Use it to quickly add effects and generators to a JUCE based audio project.
 
 ```git submodule update```
 
-Then add the module folder to your project from Projucer. 
+Then add the module folder to your JUCE project in Projucer. 
 
