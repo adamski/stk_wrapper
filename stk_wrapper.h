@@ -44,19 +44,29 @@
   ==============================================================================
 */
 
-/*
-BEGIN_JUCE_MODULE_DECLARATION
+/*******************************************************************************
+ The block below describes the properties of this module, and is read by
+ the Projucer to automatically generate project code that uses it.
+ For details about the syntax and how to create or use a module, see the
+ JUCE Module Format.txt file.
 
-    ID:               stk_wrapper
-    vendor:           adamski
-    version:          1.0.0
-    name:             STK Library
-    description:      JUCE wrapper module for the STK Library, for audio synthesis and effects. 
-    website:          https://github.com/thestk/stk
-    dependencies:     juce_core
 
-END_JUCE_MODULE_DECLARATION 
-*/
+ BEGIN_JUCE_MODULE_DECLARATION
+
+  ID:               stk_wrapper
+  vendor:           adamski and carthach
+  version:          2.0.0
+  name:             STK Wrapper
+  description:      JUCE wrapper for the STK library
+  website:          http://www.juce.com/juce
+  license:          GPL/Commercial
+
+  dependencies:     juce_core
+  searchpaths:		stk/include
+
+ END_JUCE_MODULE_DECLARATION
+
+*******************************************************************************/
 
 #ifndef __STK_STKHEADER__
 #define __STK_STKHEADER__
