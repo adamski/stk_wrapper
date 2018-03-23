@@ -54,15 +54,15 @@
  BEGIN_JUCE_MODULE_DECLARATION
 
   ID:               stk_wrapper
-  vendor:           adamski and carthach
+  vendor:           adamski
   version:          2.0.0
   name:             STK Wrapper
   description:      JUCE wrapper for the STK library
-  website:          http://www.juce.com/juce
+  website:          https://ccrma.stanford.edu/software/stk/
   license:          GPL/Commercial
 
   dependencies:     juce_core
-  searchpaths:		stk/include
+  searchpaths:		  stk/include
 
  END_JUCE_MODULE_DECLARATION
 
