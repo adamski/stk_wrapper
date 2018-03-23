@@ -62,7 +62,7 @@
   license:          GPL/Commercial
 
   dependencies:     juce_core
-  searchpaths:		  stk/include
+  searchpaths:      stk/include
 
  END_JUCE_MODULE_DECLARATION
 
