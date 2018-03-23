@@ -55,7 +55,7 @@
 
   ID:               stk_wrapper
   vendor:           adamski
-  version:          2.0.0
+  version:          1.1.0
   name:             STK Wrapper
   description:      JUCE wrapper for the STK library
   website:          https://ccrma.stanford.edu/software/stk/
