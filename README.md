@@ -7,7 +7,7 @@ This wrapper simply wraps the whole STK library into a JUCE module, as a Git sub
 
 Use it to quickly add effects and generators to a JUCE based audio project. 
 
-###Installation
+### Installation
 
 ```git clone https://github.com/adamski/stk_wrapper.git```
 
